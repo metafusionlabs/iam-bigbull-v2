@@ -1,0 +1,63 @@
+@media screen and (min-width: 1280px) {
+}
+@media screen and (max-width: 1280px) {
+}
+@media screen and (max-width: 1199px) {
+  .add-show {
+    display: none;
+  }
+  .center-dashboard {
+    width: 98%;
+  }
+}
+@media screen and (max-width: 991px) {
+}
+@media screen and (max-width: 767px) {
+  .account-menu ul li a {
+    padding: 8px 15px;
+    font-size: 14px;
+    gap: 5px;
+  }
+  .center-dashboard-inner {
+    padding: 0 10px;
+  }
+  .account-logo img {
+    width: 70px;
+  }
+  .account-menu ul li a i {
+    font-size: 15px;
+  }
+  .verified-status-info p {
+    font-size: 14px;
+    padding-right: 12px;
+  }
+  .common-card {
+    padding: 15px 10px;
+    border-radius: 5px;
+  }
+  .info-list ul li span {
+    font-size: 14px;
+  }
+  .footer-section p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .info-list ul li p {
+    font-size: 14px;
+  }
+  .info-list-card li {
+    width: 100%;
+  }
+  .tab-btn {
+    padding: 6px 6px;
+    font-size: 12px;
+  }
+  .custom-table table tr th,
+  .custom-table table tr td {
+    font-size: 12px;
+  }
+  .secondary-btn i {
+    font-size: 15px;
+  }
+}
