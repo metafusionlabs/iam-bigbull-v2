@@ -34,10 +34,10 @@
   .hand-img {
     display: none;
   }
-  .login-contain{
+  .login-contain {
     height: auto;
   }
-  .login-area{
+  .login-area {
     gap: 0;
   }
 }
@@ -47,10 +47,11 @@
   }
 }
 @media screen and (max-width: 767px) {
-  .login-area-right, .login-area-left {
+  .login-area-right,
+  .login-area-left {
     padding: 15px;
   }
-  .login-card{
+  .login-card {
     padding: 30px 15px;
   }
   form.login-card h2 {
@@ -84,7 +85,6 @@
   .footer-section p {
     font-size: 14px;
   }
-  
 }
 @media screen and (max-width: 480px) {
   .info-list ul li p {
