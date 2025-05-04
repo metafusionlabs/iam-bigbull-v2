@@ -9,6 +9,37 @@
   .center-dashboard {
     width: 98%;
   }
+  .login-area-right,
+  .login-area-left {
+    width: 100%;
+  }
+  .login-area::after {
+    background-color: transparent;
+  }
+  .login-area {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .login-right h1 {
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 20px;
+  }
+  .login-logo a img {
+    max-width: 75px;
+  }
+  .hand-img img {
+    max-width: 85px;
+  }
+  .hand-img {
+    display: none;
+  }
+  .login-contain{
+    height: auto;
+  }
+  .login-area{
+    gap: 0;
+  }
 }
 @media screen and (max-width: 991px) {
   #assets-data-table tr td p {
@@ -16,6 +47,15 @@
   }
 }
 @media screen and (max-width: 767px) {
+  .login-area-right, .login-area-left {
+    padding: 15px;
+  }
+  .login-card{
+    padding: 30px 15px;
+  }
+  form.login-card h2 {
+    font-size: 24px;
+  }
   .account-menu ul li a {
     padding: 8px 15px;
     font-size: 14px;
