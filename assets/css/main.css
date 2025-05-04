@@ -16,8 +16,8 @@ input:focus {
   box-shadow: 0 0 0 0 transparent;
 }
 p {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height:28px;
   color: #020817;
 }
 .container {
@@ -109,7 +109,7 @@ h6 {
   display: flex;
   align-items: center;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   background: #2d1c1f;
   color: #fff;
   padding: 12px 20px;
@@ -139,7 +139,7 @@ h6 {
   z-index: 99;
 }
 .full-height {
-  height: calc(100vh - 75px);
+  height: calc(100vh - 50px);
 }
 .center-dashboard {
   background: #201517;
@@ -194,13 +194,12 @@ h6 {
 }
 /* end header css */
 .account-menu ul li a {
-  padding: 12px 22px;
+  padding: 8px 16px;
   font-weight: 600;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   align-items: center;
-
   gap: 10px;
   border-radius: 10px;
 }
@@ -211,7 +210,7 @@ h6 {
   background: linear-gradient(137.07deg, #ff0025 0.07%, #6d0000 103.84%);
 }
 .account-menu ul li a i {
-  font-size: 26px;
+  font-size: 22px;
   display: none;
 }
 .card-1 {
@@ -221,12 +220,12 @@ h6 {
 }
 .common-card {
   background: #210f12;
-  padding: 20px;
-  border-radius: 20px;
+  padding: 15px;
+  border-radius: 15px;
 }
 .account-logo {
   background: #ff002533;
-  padding: 10px 20px;
+  padding:6px 18px;
   border-radius: 5px;
 }
 .verified-status {
@@ -244,7 +243,7 @@ h6 {
   display: block;
 }
 .sub-menu-list .secondary-btn {
-  padding: 10px 20px;
+  padding: 6px 16px;
 }
 .sub-menu-list .secondary-btn.active {
   background: linear-gradient(137.07deg, #ff0025 0.07%, #6d0000 103.84%);
@@ -284,13 +283,11 @@ h6 {
   font-weight: 600;
   font-size: 22px;
   color: #fff;
-  letter-spacing: 0%;
 }
 .title-lg {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 24px;
   color: #fff;
-  letter-spacing: 0%;
 }
 .line-1 {
   width: 100%;
@@ -302,19 +299,19 @@ h6 {
 }
 .info-list ul li p {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   color: #ffff;
 }
 .info-list ul li span {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   color: #ffffffb2;
 }
 .info-list ul:last-child {
   border: none;
 }
 .info-list ul {
-  padding-bottom: 12px;
+  padding-bottom:5px;
   border-bottom: 1px solid #ffffff1a;
 }
 /* table */
@@ -327,7 +324,7 @@ table tr th,
 table tr td {
   border-right: 1px solid #ffffff1a !important;
   border-bottom: 1px solid #ffffff1a !important;
-  padding: 14px 5px !important;
+  padding: 10px 5px !important;
 }
 table tr th:first-child,
 table tr td:first-child {
@@ -338,13 +335,13 @@ table tr td {
   border-right: none !important;
 }
 table tr td span {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   color: #fff;
 }
 table tr th {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
 
   border-right: none !important;
   background: #312021 !important;
@@ -388,7 +385,7 @@ table tr:last-child td:last-child {
 }
 .card-2 ul li {
   border-bottom: 1px solid #ffffff1a;
-  padding: 12px 20px;
+  padding:6px 18px;
 }
 .short-progress {
   max-width: 152px;
@@ -416,7 +413,7 @@ table tr:last-child td:last-child {
 .footer-section p {
   font-weight: 500;
   color: #fff;
-  font-size: 18px;
+  font-size:15px;
   text-align: center;
 }
 .footer-section {
@@ -424,7 +421,7 @@ table tr:last-child td:last-child {
   bottom: 0;
   width: 100%;
   background: #210f12;
-  padding: 20px 10px;
+  padding:10px 10px;
 }
 .text-green {
   color: #1dbf73;
@@ -503,21 +500,19 @@ table tr:last-child td:last-child {
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
   color: #fff;
 }
 
 .big-border-bottom {
-  margin-bottom: 12px;
-  padding-bottom: 12px;
+  margin-bottom:8px;
+  padding-bottom:8px;
   border-bottom: 1px solid #ffffff0d;
 }
 
 .big-card h3 {
   font-weight: 600;
-  font-size: 20px;
+  font-size:18px;
   line-height: 100%;
-  letter-spacing: 0%;
   color: #fff;
 }
 
@@ -535,7 +530,7 @@ table tr:last-child td:last-child {
   padding: 2px 6px;
   border-radius: 5px;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 100%;
   letter-spacing: 0%;
   color: #cf1518;
@@ -562,19 +557,20 @@ table tr:last-child td:last-child {
   letter-spacing: 0%;
   color: #ffffff;
 }
-
+.navbar-brand img{
+  width:60px;
+}
 #assets-data-table tr td,
 #assets-data-table tr th {
-  padding: 10px 12px !important;
+  padding:6px 12px !important;
 }
 #assets-data-table tr th {
-  padding: 16px 12px !important;
+  padding: 14px 12px !important;
 }
 #assets-data-table tr td p {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0%;
+  font-size: 14px;
+  line-height:20px;
   color: #fff;
 }
 
