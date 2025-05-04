@@ -11,6 +11,9 @@
   }
 }
 @media screen and (max-width: 991px) {
+  #assets-data-table tr td p {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 767px) {
   .account-menu ul li a {
@@ -41,6 +44,7 @@
   .footer-section p {
     font-size: 14px;
   }
+  
 }
 @media screen and (max-width: 480px) {
   .info-list ul li p {
