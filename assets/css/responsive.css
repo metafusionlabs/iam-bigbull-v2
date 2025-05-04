@@ -40,6 +40,10 @@
   .login-area {
     gap: 0;
   }
+  .login-area-right,
+.login-area-left {
+ padding: 30px;
+}
 }
 @media screen and (max-width: 991px) {
   #assets-data-table tr td p {

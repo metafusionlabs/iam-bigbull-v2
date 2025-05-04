@@ -669,7 +669,7 @@ table.dataTable.dtr-inline.collapsed
 .login-area-right,
 .login-area-left {
   width: 50%;
-  padding: 30px;
+  /* padding: 30px; */
   display: flex;
   justify-content: center;
 }
