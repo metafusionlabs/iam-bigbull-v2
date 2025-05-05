@@ -83,7 +83,10 @@
                       <div class="glow"></div>
                       <div class="inner">
                         <div class="d-inline-block btn-outline">
-                          <a href="#" class="primary-btn">Sign In </a>
+                          <span class="primary-btn pointer" data-bs-toggle="modal"
+                          data-bs-target="#login-modal">
+                          Sign In
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -94,6 +97,78 @@
           </nav>
         </header>
         <!-- Header End -->
+          <!-- Start modal -->
+        <div
+        class="modal fade bg-gradient-add"
+        id="login-modal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content common-card">
+            <div class="modal-header-area">
+              <div class="d-flex align-items-center justify-content-end">
+                 
+                <div class="modal-close-btn pointer">
+                  <span data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                  </span>
+                </div>
+              </div>
+               
+            </div>
+            <div class="modal-body-inner">
+              <form action="" method="" class="login-card mw-100">
+                <h2 class="text-center">Sign In to Your Account</h2>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control input"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div class="form-group mt-30">
+                  <button class="primary-btn w-100">
+                    Sign In <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                  </button>
+                </div>
+                <div class="login-with-main">
+                  <div class="row gy-3">
+                    <div class="col-md-6">
+                      <a href="#" class="login-with-all">
+                        <img src="assets/images/icon/google.png" alt="google" />
+                        <span>Continue with Google</span>
+                      </a>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="#" class="login-with-all">
+                        <img src="assets/images/icon/facebook.png" alt="google" />
+                        <span>Continue with Google</span>
+                      </a>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="#" class="login-with-all">
+                        <img src="assets/images/icon/twiter.png" alt="google" />
+                        <span>Continue with Google</span>
+                      </a>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="#" class="login-with-all">
+                        <img src="assets/images/icon/github.png" alt="google" />
+                        <span>Continue with Google</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- End modal -->
         <div class="center-dashboard-inner">
           <!-- <div class="top-add-show">
             <img
