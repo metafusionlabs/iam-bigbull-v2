@@ -811,3 +811,22 @@ select {
   font-size: 22px;
   color: #fff;
 }
+ 
+.maintenance-footer{
+  position: fixed;
+  bottom:40px;
+  left: 0;
+  width: 100%;
+}
+.shape{
+  position: absolute;
+  right: 10%;
+  top:40%;
+  opacity: 0.5;
+}
+.shape-2{
+  position: absolute;
+  left: 10%;
+  top:100%;
+  opacity: 0.5;
+}
