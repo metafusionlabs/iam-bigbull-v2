@@ -438,7 +438,6 @@ table tr:last-child td:last-child {
   padding: 10px;
   border-radius: 10px;
 }
-
 .text-red {
   color: #cf1518;
 }
@@ -478,7 +477,6 @@ table tr:last-child td:last-child {
   font-size: 24px;
   color: #fff;
 }
-
 /* data table code start */
 .big-card {
   padding: 12px;
@@ -486,7 +484,6 @@ table tr:last-child td:last-child {
   background: #29181b;
   height: 100%;
 }
-
 .big-text p {
   font-weight: 500;
   font-size: 16px;
@@ -495,35 +492,29 @@ table tr:last-child td:last-child {
   color: #ffffffb2;
   margin-bottom: 4px;
 }
-
 .big-text h4 {
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
   color: #fff;
 }
-
 .big-border-bottom {
   margin-bottom:8px;
   padding-bottom:8px;
   border-bottom: 1px solid #ffffff0d;
 }
-
 .big-card h3 {
   font-weight: 600;
   font-size:18px;
   line-height: 100%;
   color: #fff;
 }
-
 .red-big-text {
   color: #cf1518 !important;
 }
-
 .green-big-text {
   color: #1dbf73 !important;
 }
-
 .green-text-up,
 .red-text-down {
   background: #cf15181a;
@@ -537,7 +528,6 @@ table tr:last-child td:last-child {
   margin-top: 8px;
   display: inline-block;
 }
-
 .green-text-up {
   background: #1dbf731a;
   color: #1dbf73;
@@ -549,7 +539,6 @@ table tr:last-child td:last-child {
 .red-text-down i {
   margin-right: 4px;
 }
-
 #assets-data-table th {
   font-weight: 500 !important;
   font-size: 16px !important;
@@ -598,13 +587,11 @@ table tr:last-child td:last-child {
 .green-double-data {
   color: #1dbf73 !important;
 }
-
 .holding-data {
   display: flex;
   flex-direction: column;
   gap: 3px;
 }
-
 #assets-data-table.dataTable.dtr-inline.collapsed
   > tbody
   > tr[role="row"]
@@ -631,11 +618,9 @@ table.dataTable.dtr-inline.collapsed
 .data-name {
   margin-left: 12px;
 }
-
 #assets-data-table .child ul {
   width: 100%;
 }
-
 #assets-data-table.dataTable > tbody > tr.child span.dtr-title {
   margin-bottom: 10px;
 }
@@ -643,7 +628,6 @@ table.dataTable.dtr-inline.collapsed
 /* data table code end */
 
 /* Stat login css */
-
 .login-area {
   display: flex;
   justify-content: space-between;
@@ -661,7 +645,6 @@ table.dataTable.dtr-inline.collapsed
   width: 50%;
   z-index: -1;
 }
-
 .login-area-right,
 .login-area-left {
   width: 50%;
@@ -683,7 +666,7 @@ table.dataTable.dtr-inline.collapsed
   width: 100%;
 }
 form.login-card h2 {
-  font-weight: 600;
+  font-weight: 600; 
   font-size: 30px;
   line-height: 100%;
   color: #ffffff;
@@ -805,17 +788,17 @@ select {
   text-align: center;
   color: #ffffff;
 }
-
 /* modal design css */
 .modal-close-btn span i {
   font-size: 22px;
   color: #fff;
 }
- 
-.maintenance-footer{
+.maintenance-footer {
   position: fixed;
-  bottom:40px;
+  bottom: 0;
   left: 0;
+  background: #201517;
+  padding-bottom: 15px;
   width: 100%;
 }
 .shape{
