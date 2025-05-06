@@ -98,18 +98,19 @@
           <div class="modal-content common-card">
             <div class="modal-header-area">
               <div class="d-flex align-items-center justify-content-end">
-                 
                 <div class="modal-close-btn pointer">
                   <span data-bs-dismiss="modal" aria-label="Close">
                     <i class="fas fa-times"></i>
                   </span>
                 </div>
               </div>
-               
             </div>
             <div class="modal-body-inner">
+              <div class="text-center">
+                <a href="#"><img src="assets/images/logo.png" alt="logo"></a>
+              </div>
               <form action="" method="" class="login-card mw-100">
-                <h2 class="text-center">Sign In to Your Account</h2>
+                <h2 class="text-center">Log in and take control of your portfolio</h2>
                 <div class="form-group">
                   <label for="email">Email Address</label>
                   <input
@@ -126,30 +127,13 @@
                 </div>
                 <div class="login-with-main">
                   <div class="row gy-3">
-                    <div class="col-md-6">
-                      <a href="#" class="login-with-all">
+                    <div class="col-md-12">
+                      <a href="#" class="login-with-all justify-content-center">
                         <img src="assets/images/icon/google.png" alt="google" />
                         <span>Continue with Google</span>
                       </a>
                     </div>
-                    <div class="col-md-6">
-                      <a href="#" class="login-with-all">
-                        <img src="assets/images/icon/facebook.png" alt="google" />
-                        <span>Continue with Google</span>
-                      </a>
-                    </div>
-                    <div class="col-md-6">
-                      <a href="#" class="login-with-all">
-                        <img src="assets/images/icon/twiter.png" alt="google" />
-                        <span>Continue with Google</span>
-                      </a>
-                    </div>
-                    <div class="col-md-6">
-                      <a href="#" class="login-with-all">
-                        <img src="assets/images/icon/github.png" alt="google" />
-                        <span>Continue with Google</span>
-                      </a>
-                    </div>
+                     
                   </div>
                 </div>
               </form>
@@ -3042,5 +3026,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const loginModal = new bootstrap.Modal(document.getElementById('login-modal'));
+        // Show modal after 500ms (optional delay)
+        setTimeout(() => {
+          loginModal.show();
+        }, 500);
+        // Hide modal after 5 seconds (5000ms)
+        setTimeout(() => {
+          loginModal.hide();
+        }, 5500); // 500ms delay + 5000ms display = 5500
+      });
+    </script>
+    
   </body>
 </html>

@@ -436,7 +436,7 @@ table tr:last-child td:last-child {
   flex-wrap: wrap;
   background: #29181b;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 10px;   
 }
 .text-red {
   color: #cf1518;
@@ -562,7 +562,6 @@ table tr:last-child td:last-child {
   line-height:20px;
   color: #fff;
 }
-
 .data-name {
   display: flex;
   gap: 6px;
@@ -582,7 +581,6 @@ table tr:last-child td:last-child {
 .red-data-down {
   color: #cf1518 !important;
 }
-
 .green-double-data p,
 .green-double-data {
   color: #1dbf73 !important;
@@ -652,6 +650,9 @@ table.dataTable.dtr-inline.collapsed
   display: flex;
   justify-content: center;
 }
+ .modal{
+  backdrop-filter: blur(7px);
+ }
 .login-contain {
   height: 100vh;
   display: flex;
@@ -793,14 +794,7 @@ select {
   font-size: 22px;
   color: #fff;
 }
-.maintenance-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background: #201517;
-  padding-bottom: 15px;
-  width: 100%;
-}
+
 .shape{
   position: absolute;
   right: 10%;
@@ -810,6 +804,24 @@ select {
 .shape-2{
   position: absolute;
   left: 10%;
-  top:100%;
+  bottom:0%;
   opacity: 0.5;
+}
+.time-value {
+  display: flex;
+  padding:10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color:#fff;
+  width:60px;
+  font-size:26px;
+  border: 1px solid #ffffff33;
+  backdrop-filter: blur(30px);
+  box-shadow: -4px -6px 20px 0px #ff0025 inset;
+  background: #ffffff08;
+}
+.time-label{
+  text-align:center;
+  font-size: 16px;
+  color:#fff;
 }
